@@ -43,8 +43,8 @@ def add_s(array)
   array.each_with_index.collect do |element, index| 
     if index == 0 || index > 1
       element + "s"
-    # else
-    #   element
+    else
+      element
     end
   end
    #binding.pry
