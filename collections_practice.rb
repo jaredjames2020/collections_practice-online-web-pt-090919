@@ -42,5 +42,5 @@ end
 def add_s(array)
   array.each {|n| p n + "s"}
   array
-   binding.pry
+   #binding.pry
 end
