@@ -47,5 +47,5 @@ def add_s(array)
       element
     end
   end
-   binding.pry
+   #binding.pry
 end
