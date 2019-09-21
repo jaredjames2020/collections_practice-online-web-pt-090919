@@ -40,6 +40,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|n,i| p n + "s"}
+  array.each_with_index.collect {|element, index| element + "s"}
    #binding.pry
 end
